@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Globant Selenium Test" verbose="1">
+	<parameter name="browser" value="${test.browser}"></parameter>
+	<parameter name="url" value="https://www.travelocity.com/"></parameter>
+	<test name="Page Object Test">
+			<classes>
+			<class
+				name="com.globant.training.app.webAutomation.SeleniumBasicTest" />
+		</classes>
+	</test>
+</suite>
